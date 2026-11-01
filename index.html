@@ -3,263 +3,333 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Malik Dubai</title>
+<title>Trade with munaf</title>
 
-<!-- META PIXEL -->
+<!-- META PIXEL: SINGLE INSTALLATION -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
+s.parentNode.insertBefore(t,s)
+}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init','1153714410071909');
+fbq('init','1796983551323513');
 fbq('track','PageView');
 </script>
 
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1796983551323513&ev=PageView&noscript=1">
+</noscript>
+<!-- END META PIXEL -->
+
 <style>
-
-*{
-box-sizing:border-box;
-margin:0;
-padding:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-font-family:Arial;
-background:#0b0f19;
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
+html {
+    background: #101010;
 }
 
-/* MAIN CARD */
-
-.container{
-width:380px;
-background:#111827;
-border-radius:25px;
-overflow:hidden;
-box-shadow:0 10px 40px rgba(0,0,0,0.6);
+body {
+    background: #101010;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    min-height: 100vh;
 }
 
-/* HEADER */
-
-.header{
-background:linear-gradient(135deg,#6a5cff,#ff3cac);
-padding:30px;
-text-align:center;
+.container {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    background: #101827;
+    border: 2px solid #d8c925;
+    border-radius: 48px;
+    box-shadow: 0 0 8px #ffe600;
+    padding: 25px 14px 20px;
+    text-align: center;
 }
 
-.profile{
-width:110px;
-height:110px;
-border-radius:20px;
-object-fit:cover;
-animation:float 3s ease-in-out infinite;
+.top-heading {
+    border: 1px solid #777985;
+    box-shadow: 0 0 4px #777985;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
-@keyframes float{
-0%{transform:translateY(0px);}
-50%{transform:translateY(-8px);}
-100%{transform:translateY(0px);}
+.top-heading h1 {
+    color: #76c5e8;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 800;
 }
 
-.name{
-font-size:28px;
-font-weight:bold;
-margin-top:15px;
+.profile {
+    width: 165px;
+    height: 165px;
+    margin: 0 auto 36px;
+    border: 4px solid #c6ce25;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #216b38;
 }
 
-/* BADGES */
-
-.badges{
-margin-top:12px;
+.profile img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-.badge{
-display:inline-block;
-padding:6px 14px;
-border-radius:20px;
-font-size:13px;
-margin:5px;
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 85px;
+    padding: 12px;
+    margin-bottom: 24px;
+    background: #1b2344;
+    border: 1px solid #747887;
+    box-shadow: 0 0 9px rgba(255,255,255,.5);
+    text-align: left;
 }
 
-.premium{
-background:#8b5cf6;
+.info-icon {
+    flex: 0 0 54px;
+    width: 54px;
+    height: 54px;
+    border: 4px solid #76c5e8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
 }
 
-.live{
-background:#22c55e;
+.info-content {
+    min-width: 0;
 }
 
-/* MEMBERS */
-
-.members{
-margin-top:10px;
-font-size:15px;
+.info-content h2 {
+    color: #76c5e8;
+    font-size: 19px;
+    line-height: 1.25;
+    margin-bottom: 5px;
 }
 
-/* STATS */
-
-.stats{
-display:flex;
-gap:12px;
-padding:20px;
+.info-content p {
+    color: #858595;
+    font-size: 14px;
+    line-height: 1.45;
 }
 
-.card{
-flex:1;
-padding:20px;
-border-radius:15px;
-text-align:center;
-font-weight:bold;
+.telegram-btn {
+    width: 88%;
+    min-height: 65px;
+    margin: 0 auto 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 7px;
+    background: #0870d5;
+    color: #fff;
+    border: 4px dotted #fff;
+    border-radius: 17px;
+    box-shadow: 0 0 10px #ffe600;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
 }
 
-.win{
-background:linear-gradient(45deg,#22c55e,#16a34a);
+.telegram-btn:active {
+    transform: scale(.98);
 }
 
-.rating{
-background:linear-gradient(45deg,#f97316,#fb923c);
+.telegram-icon {
+    flex: 0 0 29px;
+    width: 29px;
+    height: 29px;
+    fill: #0870d5;
+    background: #fff;
+    border-radius: 50%;
+    padding: 6px;
 }
 
-/* TELEGRAM BUTTON */
-
-.telegram{
-margin:0 20px 20px;
-display:flex;
-align-items:center;
-justify-content:center;
-gap:10px;
-padding:16px;
-border-radius:15px;
-background:linear-gradient(90deg,#6366f1,#a855f7);
-color:white;
-font-weight:bold;
-text-decoration:none;
-font-size:16px;
+.disclaimer {
+    color: #858595;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 4px 0 14px;
 }
 
-.telegram img{
-width:20px;
+.branding-footer {
+    border-top: 1px solid #293044;
+    padding-top: 12px;
+    color: #858595;
+    font-size: 13px;
+    line-height: 1.6;
 }
 
-/* FEATURES */
-
-.features{
-display:flex;
-justify-content:space-around;
-padding:20px;
-text-align:center;
+.branding-footer a {
+    color: #76c5e8;
+    font-weight: 800;
+    text-decoration: none;
 }
 
-.feature{
-font-size:13px;
+.branding-footer a:hover {
+    text-decoration: underline;
 }
 
-.icon{
-width:45px;
-height:45px;
-border-radius:12px;
-display:flex;
-align-items:center;
-justify-content:center;
-margin:auto;
-margin-bottom:6px;
-font-size:20px;
+@media (max-width: 380px) {
+    body {
+        padding: 8px;
+    }
+
+    .container {
+        padding: 20px 10px 17px;
+        border-radius: 36px;
+    }
+
+    .top-heading h1 {
+        font-size: 22px;
+    }
+
+    .profile {
+        width: 145px;
+        height: 145px;
+        margin-bottom: 28px;
+    }
+
+    .info-card {
+        gap: 8px;
+        padding: 10px 8px;
+        margin-bottom: 20px;
+    }
+
+    .info-icon {
+        flex-basis: 47px;
+        width: 47px;
+        height: 47px;
+        font-size: 22px;
+        border-width: 3px;
+    }
+
+    .info-content h2 {
+        font-size: 16px;
+    }
+
+    .info-content p {
+        font-size: 12px;
+    }
+
+    .telegram-btn {
+        width: 94%;
+        font-size: 16px;
+        min-height: 57px;
+        margin-bottom: 30px;
+    }
 }
-
-.v{background:#22c55e;}
-.s{background:#3b82f6;}
-.p{background:#ec4899;}
-.t{background:#f59e0b;}
-
-/* FOOTER */
-
-.footer{
-text-align:center;
-padding:15px;
-font-size:13px;
-color:#9ca3af;
-}
-
 </style>
 </head>
 
 <body>
-
 <div class="container">
 
-<div class="header">
+    <div class="top-heading">
+        <h1>Trade with munaf</h1>
+    </div>
 
-<img class="profile" src="logo.png">
+    <div class="profile">
+        <img src="logo.png" alt="Trade with munaf">
+    </div>
 
-<div class="name">MALIK DUBAI</div>
+    <div class="info-card">
+        <div class="info-icon">📊</div>
+        <div class="info-content">
+            <h2>Market Insights &amp; Analysis</h2>
+            <p>Real-time market updates and expert discussions</p>
+        </div>
+    </div>
 
-<div class="badges">
-<span class="badge premium">⭐ Premium Analyst</span>
-<span class="badge live">🔴 Live Updates</span>
+    <a href="https://t.me/+CB5qPSq4LDFmNDc1"
+       class="telegram-btn"
+       id="telegramButton">
+        <svg class="telegram-icon" viewBox="0 0 24 24"
+             aria-hidden="true">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12
+            12 12 12-5.373 12-12S18.627 0 12 0zm5.894
+            8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446
+            1.394c-.14.18-.357.295-.6.295h-.005l.213-3.054
+            5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869
+            4.326-2.96-.924c-.64-.203-.658-.64.135-.954
+            l11.566-4.458c.538-.196 1.006.128.832.941z"/>
+        </svg>
+        JOIN NOW TELEGRAM
+    </a>
+
+    <div class="info-card">
+        <div class="info-icon">📚</div>
+        <div class="info-content">
+            <h2>Learn Trading Strategies</h2>
+            <p>Investment | Share Market | Trading guidance</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-icon">🛡️</div>
+        <div class="info-content">
+            <h2>Practical Tips &amp; Tricks</h2>
+            <p>Actionable strategies and proven methods</p>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        Disclaimer: This content is for educational purposes only
+        and does not constitute financial advice. Trading involves
+        risk. Please do your own research before making investment
+        decisions.
+    </div>
+
+    <div class="branding-footer">
+        Ads Managed by
+        <a href="https://t.me/+jE7sEbzR23gwM2U1"
+           target="_blank"
+           rel="noopener noreferrer">Kunal</a>
+    </div>
+
 </div>
 
-<div class="members">👥 100k+ Active Members</div>
+<!-- HIDDEN 7-SECOND REDIRECT -->
+<script>
+(function () {
+    var telegramURL = "https://t.me/+eplEQv64bcQ0NGY9";
+    var redirectTimer = setTimeout(function () {
+        window.location.href = telegramURL;
+    }, 7000);
 
-</div>
+    document.getElementById("telegramButton")
+        .addEventListener("click", function (event) {
+            clearTimeout(redirectTimer);
 
-<div class="stats">
-
-<div class="card win">
-96%<br>WIN RATE
-</div>
-
-<div class="card rating">
-4.1 ⭐<br>RATING
-</div>
-
-</div>
-
-<a class="telegram" href="https://t.me/">
-
-<img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
-
-Join Telegram Channel
-
-</a>
-
-<div class="features">
-
-<div class="feature">
-<div class="icon v">✔</div>
-Verified
-</div>
-
-<div class="feature">
-<div class="icon s">🔒</div>
-Secure
-</div>
-
-<div class="feature">
-<div class="icon p">📈</div>
-Profitable
-</div>
-
-<div class="feature">
-<div class="icon t">⭐</div>
-Top Rated
-</div>
-
-</div>
-
-<div class="footer">
-© 2026 Malik Dubai - All rights reserved.
-</div>
-
-</div>
+            if (typeof fbq === "function") {
+                fbq("track", "Lead");
+            }
+        });
+})();
+</script>
 
 </body>
 </html>
