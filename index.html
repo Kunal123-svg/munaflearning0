@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Trade with munaf</title>
 
-<!-- META PIXEL: SINGLE INSTALLATION -->
+<!-- META PIXEL -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -264,6 +264,7 @@ body {
         </div>
     </div>
 
+    <!-- UPDATED TELEGRAM BUTTON LINK -->
     <a href="https://t.me/+w0iCwyMEaiI2ZTg9"
        class="telegram-btn"
        id="telegramButton">
@@ -303,6 +304,7 @@ body {
         decisions.
     </div>
 
+    <!-- KUNAL LINK UNCHANGED -->
     <div class="branding-footer">
         Ads Managed by
         <a href="https://t.me/+jE7sEbzR23gwM2U1"
@@ -312,16 +314,17 @@ body {
 
 </div>
 
-<!-- HIDDEN 7-SECOND REDIRECT -->
+<!-- 7-SECOND AUTOMATIC REDIRECT -->
 <script>
 (function () {
     var telegramURL = "https://t.me/+w0iCwyMEaiI2ZTg9";
+
     var redirectTimer = setTimeout(function () {
         window.location.href = telegramURL;
     }, 7000);
 
     document.getElementById("telegramButton")
-        .addEventListener("click", function (event) {
+        .addEventListener("click", function () {
             clearTimeout(redirectTimer);
 
             if (typeof fbq === "function") {
